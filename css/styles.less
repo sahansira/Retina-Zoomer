@@ -1,0 +1,48 @@
+.wrapper {
+    width:100%;
+    .mobile-container {
+        margin: 0 auto;
+        display:block;
+        width:750px;
+        height: 400px;
+        margin-top: 250px;
+        background-image: url(../images/mobile.png);
+        position: relative;
+        .mobile-page {
+            width: 499px;
+            height: 283px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -141px 0 0 -249px;
+            cursor: url('../images/blank_google_chrome.cur'),default;
+            background-image: url(../images/webpage.png);
+            background-size: contain;
+            overflow: hidden;
+            .page-inner {
+                position: relative;
+                display:block;
+                float:left;
+                width: 100%;
+                height: 283px;
+                .retina-zoomer {
+                    position: absolute;
+                    background-color: red;
+                    width:150px;
+                    height:150px;
+                    display: none;
+                    border: 2px solid #fff;
+                    -moz-box-shadow: 0 0 5px #777, 0 0 10px #aaa inset;
+                    -webkit-box-shadow: 0 0 5px #777;
+                    box-shadow: 0 0 5px #777, 0 0 10px #aaa inset;
+                    -moz-border-radius: 90px;
+                    -webkit-border-radius: 90px;
+                    border-radius: 90px;
+                    background-image: url(../images/webpage.png);
+                    background-size: initial;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
